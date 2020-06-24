@@ -1,13 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "slider-layout#home"
     ]
-  },
-  "rich-text": {
-    "props": {
-       "text": "**Hello, World!**",
-       "textAlignment" : "RIGHT"
-    }
   }
 }
