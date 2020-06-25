@@ -22,5 +22,14 @@
           "alt": "Coffee Makers Collection",
           "maxWidth": "200px"
         }
-    }    
+    },
+    "vtex.menu@2.x:submenu#major": {
+      "children": ["flex-layout.row#major"]
+    },
+    "vtex.menu@2.x:menu#major": {
+      "props": {"orientation": "vertical"},   
+      "children": ["menu-item#refrigerators",
+      "menu-item#ovens","menu-item#washers"]
+    }
+
 }
